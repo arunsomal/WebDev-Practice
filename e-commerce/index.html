@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoe Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+<div class="header">
+
+
+
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="RedStore_Img/images/logo.png" width="125px" alt="">
+            </div>
+            <nav>
+                <ul id="menueItem">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Products</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">Account</a></li>
+                </ul>
+            </nav>
+            <img src="RedStore_Img/images/cart.png" width="30px" height="30px">
+            <img src="RedStore_Img/images/menu.png" class="menu" onclick="menutoggle()">
+           </div>
+           <div class="row">
+            <div class="col-2">
+                <h1>Fresh Shoes Right Here</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi tenetur eveniet explicabo enim vel optio sapiente sunt molestias modi ratione iure ea facilis harum, debitis aut ad sint, delectus eius!</p>
+                <a href="" class="btn">Explore Here</a>
+            </div>
+            <div class="col-2">
+                <img src="RedStore_Img/images/image1.png" alt="">
+            </div>
+           </div>
+    </div>
+</div>
+
+<!--- featured categories --->
+<div class="categories">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-3">
+                <img src="RedStore_IMG/images/category-1.jpg" alt="">
+            </div>
+            <div class="col-3">
+                <img src="RedStore_IMG/images/category-2.jpg" alt="">
+            </div>
+            <div class="col-3">
+                <img src="RedStore_IMG/images/category-3.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    
+</div>
+  
+<!--- featured categories --->
+<div class="small-container">
+    <h2 class="title">Featured Products</h2>
+    <div class="row">
+        <div class="col-4">
+            <img src="RedStore_IMG/images/product-1.jpg">
+            <h4>Red Printed T-Shirt</h4>
+            <p>$50.00</p>
+            
+        </div>
+        <div class="col-4">
+            <img src="RedStore_IMG/images/product-2.jpg">
+            <h4>Red Printed T-Shirt</h4>
+            <p>$50.00</p>
+            
+        </div>
+        <div class="col-4">
+            <img src="RedStore_IMG/images/product-3.jpg">
+            <h4>Red Printed T-Shirt</h4>
+            <p>$50.00</p>
+            
+        </div>
+        
+    </div>
+    <h2 class="title"> Latest Products</h2>
+    <div class="row">
+        <div class="col-4">
+            <img src="RedStore_IMG/images/product-4.jpg">
+            <h4>Red Printed T-Shirt</h4>
+            <p>$50.00</p>
+            
+        </div>
+        <div class="col-4">
+            <img src="RedStore_IMG/images/product-5.jpg">
+            <h4>Red Printed T-Shirt</h4>
+            <p>$50.00</p>
+            
+        </div>
+        <div class="col-4">
+            <img src="RedStore_IMG/images/product-6.jpg">
+            <h4>Red Printed T-Shirt</h4>
+            <p>$50.00</p>
+            
+        </div>
+        <div class="col-4">
+            <img src="RedStore_IMG/images/product-7.jpg">
+            <h4>Red Printed T-Shirt</h4>
+            <p>$50.00</p>
+            
+        </div>
+        <div class="col-4">
+            <img src="RedStore_IMG/images/product-8.jpg">
+            <h4>Red Printed T-Shirt</h4>
+            <p>$50.00</p>
+            
+        </div>
+        <div class="col-4">
+            <img src="RedStore_IMG/images/product-9.jpg">
+            <h4>Red Printed T-Shirt</h4>
+            <p>$50.00</p>
+            
+        </div>
+        
+    </div>
+</div>
+<div class="offer">
+    <div class="small-container">
+     <div class="row">
+        <div class="col-2">
+        <img src="RedStore_IMG/images/exclusive.png" alt="offer">
+        </div>
+        <div class="col-2">
+            <p> Exclusive smart Watch!</p>
+            <h1>Smart Band</h1>
+            <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, doloribus iusto explicabo eius ut tempora, suscipit cumque nobis fuga, ex voluptatem libero autem distinctio possimus? Ducimus pariatur voluptatibus praesentium doloribus!</small>
+            <a href="" class="btn">Buy Now</a>
+        </div>
+    </div>
+    
+</div>
+
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-1">
+                <img src="RedStore_IMG/images/logo-white.png" alt="">
+                <p>Download for Apple and Android on any device</p>
+
+            </div>
+        </div>
+        <div class="footer-3">
+            <h3>Useful Links</h3>
+            <ul>
+                <li>Facebook Us</li>
+                <li>Blog</li>
+                <li>Twitter</li>
+                <li>Instagram</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<script>
+    var menuItem = document.getElementById("menuItem");
+    menuItem.style.maxHeight = "0px";
+
+    function menutoggle(){
+        if( menuItem.style.maxHeight == "0px")
+        {
+            menuItem.style.maxHeight = "200px";
+        }
+        else
+        {
+            menuItem.style.maxHeight = "0px";
+        }
+    }
+</script>
+</body>
+</html>
